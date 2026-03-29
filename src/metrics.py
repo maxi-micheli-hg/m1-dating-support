@@ -12,11 +12,12 @@ Copyright 2026 Henry Academy.
 from __future__ import annotations
 
 import json
-import logging
 from datetime import datetime
 from pathlib import Path
 
-logger = logging.getLogger(__name__)
+from .logger_config import get_logger
+
+logger = get_logger(__name__)
 
 # gpt-4o-mini pricing (USD por 1K tokens)
 _COST_INPUT_PER_1K = 0.000150

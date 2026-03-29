@@ -11,7 +11,6 @@ Copyright 2026 Henry Academy.
 
 from __future__ import annotations
 
-import logging
 import os
 from pathlib import Path
 
@@ -19,10 +18,11 @@ from dotenv import load_dotenv
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 
+from .logger_config import get_logger
 from .models import RouterOutput
 
 load_dotenv(Path(__file__).parent.parent / ".env")
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 
 def _load_prompt(name: str) -> str:

@@ -12,10 +12,11 @@ Copyright 2026 Henry Academy.
 
 from __future__ import annotations
 
-import logging
 import re
 
-logger = logging.getLogger(__name__)
+from .logger_config import get_logger
+
+logger = get_logger(__name__)
 
 # ── Patrones de inyección / jailbreak ─────────────────────────────────────────
 _INJECTION_PATTERNS: list[tuple[str, str]] = [

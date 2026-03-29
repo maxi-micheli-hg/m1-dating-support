@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
-import logging
+import os
 import time
 from pathlib import Path
 
@@ -21,6 +21,7 @@ from dotenv import load_dotenv
 
 load_dotenv(Path(__file__).parent.parent / ".env")
 
+from .logger_config import get_logger
 from .metrics import log_metrics
 from .models import TicketResult
 from .pii_hasher import hash_pii
@@ -28,13 +29,10 @@ from .router import classify
 from .safety import check_safety
 from .specialists import run_specialist
 
-# ── Logger ─────────────────────────────────────────────────────────────────────
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    datefmt="%H:%M:%S",
-)
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
+
+# ── Configuración ──────────────────────────────────────────────────────────────
+_INTENT_MIN_CONFIDENCE = float(os.getenv("INTENT_MIN_CONFIDENCE", "0.60"))
 
 
 # ── Flujo principal ────────────────────────────────────────────────────────────
@@ -85,6 +83,15 @@ def process_ticket(ticket: str) -> dict:
     )
     tokens_in += spec_usage.get("input_tokens", 0)
     tokens_out += spec_usage.get("output_tokens", 0)
+
+    # ── Confidence gate ────────────────────────────────────────────────────────
+    if specialist_output.confianza < _INTENT_MIN_CONFIDENCE:
+        logger.warning(
+            f"[PIPELINE] Confianza baja ({specialist_output.confianza:.0%} < "
+            f"{_INTENT_MIN_CONFIDENCE:.0%}) — añadiendo revisión humana"
+        )
+        if "requiere_revision_humana" not in specialist_output.acciones:
+            specialist_output.acciones.append("requiere_revision_humana")
 
     # ── 5. Métricas ────────────────────────────────────────────────────────────
     latency_ms = (time.perf_counter() - start) * 1000
