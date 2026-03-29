@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "2026-03-29T19:10:59.589278",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1334,
+    "tokens_completion": 231,
+    "total_tokens": 1565,
+    "latency_ms": 8058.37,
+    "estimated_cost_usd": 0.000339,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-29T19:12:37.392360",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1350,
+    "tokens_completion": 217,
+    "total_tokens": 1567,
+    "latency_ms": 7227.16,
+    "estimated_cost_usd": 0.000333,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-29T19:13:27.429628",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1343,
+    "tokens_completion": 346,
+    "total_tokens": 1689,
+    "latency_ms": 10052.4,
+    "estimated_cost_usd": 0.000409,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-29T19:14:01.584402",
+    "categoria": "MATCHES",
+    "tokens_prompt": 1350,
+    "tokens_completion": 296,
+    "total_tokens": 1646,
+    "latency_ms": 7380.32,
+    "estimated_cost_usd": 0.00038,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-29T19:14:28.681308",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1351,
+    "tokens_completion": 274,
+    "total_tokens": 1625,
+    "latency_ms": 7853.48,
+    "estimated_cost_usd": 0.000367,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-29T19:14:59.928073",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1366,
+    "tokens_completion": 402,
+    "total_tokens": 1768,
+    "latency_ms": 10199.2,
+    "estimated_cost_usd": 0.000446,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-29T19:15:34.890225",
+    "categoria": "BLOQUEADO",
+    "tokens_prompt": 0,
+    "tokens_completion": 0,
+    "total_tokens": 0,
+    "latency_ms": 1.63,
+    "estimated_cost_usd": 0.0,
+    "safety_flag": true
+  },
+  {
+    "timestamp": "2026-03-29T19:16:03.409286",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1386,
+    "tokens_completion": 337,
+    "total_tokens": 1723,
+    "latency_ms": 8041.92,
+    "estimated_cost_usd": 0.00041,
+    "safety_flag": false
+  }
+]
