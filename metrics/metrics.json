@@ -1,82 +1,502 @@
 [
   {
-    "timestamp": "2026-03-29T19:10:59.589278",
+    "timestamp": "2026-03-30T09:55:49.303102",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1354,
+    "tokens_completion": 339,
+    "total_tokens": 1693,
+    "latency_ms": 11065.78,
+    "estimated_cost_usd": 0.000406,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:55:58.367755",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1355,
+    "tokens_completion": 352,
+    "total_tokens": 1707,
+    "latency_ms": 9062.02,
+    "estimated_cost_usd": 0.000414,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:05.958900",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1344,
+    "tokens_completion": 311,
+    "total_tokens": 1655,
+    "latency_ms": 7324.58,
+    "estimated_cost_usd": 0.000388,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:13.214459",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1360,
+    "tokens_completion": 320,
+    "total_tokens": 1680,
+    "latency_ms": 7253.23,
+    "estimated_cost_usd": 0.000396,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:19.621109",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1349,
+    "tokens_completion": 319,
+    "total_tokens": 1668,
+    "latency_ms": 6403.8,
+    "estimated_cost_usd": 0.000394,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:27.280741",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1347,
+    "tokens_completion": 316,
+    "total_tokens": 1663,
+    "latency_ms": 7657.32,
+    "estimated_cost_usd": 0.000392,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:35.054500",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1355,
+    "tokens_completion": 337,
+    "total_tokens": 1692,
+    "latency_ms": 7772.2,
+    "estimated_cost_usd": 0.000405,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:39.935031",
+    "categoria": "SEGURIDAD",
+    "tokens_prompt": 1340,
+    "tokens_completion": 261,
+    "total_tokens": 1601,
+    "latency_ms": 4879.12,
+    "estimated_cost_usd": 0.000358,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:45.278117",
     "categoria": "CUENTA",
-    "tokens_prompt": 1334,
-    "tokens_completion": 231,
-    "total_tokens": 1565,
-    "latency_ms": 8058.37,
+    "tokens_prompt": 1353,
+    "tokens_completion": 243,
+    "total_tokens": 1596,
+    "latency_ms": 5342.11,
+    "estimated_cost_usd": 0.000349,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:50.870705",
+    "categoria": "MATCHES",
+    "tokens_prompt": 1358,
+    "tokens_completion": 291,
+    "total_tokens": 1649,
+    "latency_ms": 5591.69,
+    "estimated_cost_usd": 0.000378,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:56:57.217728",
+    "categoria": "MATCHES",
+    "tokens_prompt": 1361,
+    "tokens_completion": 236,
+    "total_tokens": 1597,
+    "latency_ms": 6345.87,
+    "estimated_cost_usd": 0.000346,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:02.771727",
+    "categoria": "MATCHES",
+    "tokens_prompt": 1360,
+    "tokens_completion": 311,
+    "total_tokens": 1671,
+    "latency_ms": 5553.08,
+    "estimated_cost_usd": 0.000391,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:08.704691",
+    "categoria": "MATCHES",
+    "tokens_prompt": 1364,
+    "tokens_completion": 287,
+    "total_tokens": 1651,
+    "latency_ms": 5932.02,
+    "estimated_cost_usd": 0.000377,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:16.174567",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1381,
+    "tokens_completion": 368,
+    "total_tokens": 1749,
+    "latency_ms": 7468.93,
+    "estimated_cost_usd": 0.000428,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:22.746787",
+    "categoria": "MATCHES",
+    "tokens_prompt": 1352,
+    "tokens_completion": 304,
+    "total_tokens": 1656,
+    "latency_ms": 6570.47,
+    "estimated_cost_usd": 0.000385,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:28.127103",
+    "categoria": "MATCHES",
+    "tokens_prompt": 1359,
+    "tokens_completion": 264,
+    "total_tokens": 1623,
+    "latency_ms": 5379.35,
+    "estimated_cost_usd": 0.000362,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:33.480617",
+    "categoria": "MATCHES",
+    "tokens_prompt": 1348,
+    "tokens_completion": 294,
+    "total_tokens": 1642,
+    "latency_ms": 5352.49,
+    "estimated_cost_usd": 0.000379,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:37.358665",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1365,
+    "tokens_completion": 201,
+    "total_tokens": 1566,
+    "latency_ms": 3875.99,
+    "estimated_cost_usd": 0.000325,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:40.919088",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1347,
+    "tokens_completion": 226,
+    "total_tokens": 1573,
+    "latency_ms": 3559.45,
+    "estimated_cost_usd": 0.000338,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:45.398623",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1357,
+    "tokens_completion": 236,
+    "total_tokens": 1593,
+    "latency_ms": 4477.34,
+    "estimated_cost_usd": 0.000345,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:50.129557",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1352,
+    "tokens_completion": 270,
+    "total_tokens": 1622,
+    "latency_ms": 4728.02,
+    "estimated_cost_usd": 0.000365,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:54.610874",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1346,
+    "tokens_completion": 260,
+    "total_tokens": 1606,
+    "latency_ms": 4480.33,
+    "estimated_cost_usd": 0.000358,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:57:58.198858",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1354,
+    "tokens_completion": 218,
+    "total_tokens": 1572,
+    "latency_ms": 3586.41,
+    "estimated_cost_usd": 0.000334,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:02.974234",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1352,
+    "tokens_completion": 245,
+    "total_tokens": 1597,
+    "latency_ms": 4774.34,
+    "estimated_cost_usd": 0.00035,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:07.210989",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1354,
+    "tokens_completion": 259,
+    "total_tokens": 1613,
+    "latency_ms": 4234.62,
+    "estimated_cost_usd": 0.000358,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:12.335411",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1353,
+    "tokens_completion": 244,
+    "total_tokens": 1597,
+    "latency_ms": 5122.97,
+    "estimated_cost_usd": 0.000349,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:17.630875",
+    "categoria": "CUENTA",
+    "tokens_prompt": 1350,
+    "tokens_completion": 244,
+    "total_tokens": 1594,
+    "latency_ms": 5293.3,
+    "estimated_cost_usd": 0.000349,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:23.342180",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1360,
+    "tokens_completion": 277,
+    "total_tokens": 1637,
+    "latency_ms": 5710.07,
+    "estimated_cost_usd": 0.00037,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:28.649678",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1371,
+    "tokens_completion": 296,
+    "total_tokens": 1667,
+    "latency_ms": 5306.18,
+    "estimated_cost_usd": 0.000383,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:33.188697",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1365,
+    "tokens_completion": 224,
+    "total_tokens": 1589,
+    "latency_ms": 4537.49,
     "estimated_cost_usd": 0.000339,
     "safety_flag": false
   },
   {
-    "timestamp": "2026-03-29T19:12:37.392360",
-    "categoria": "CUENTA",
-    "tokens_prompt": 1350,
-    "tokens_completion": 217,
-    "total_tokens": 1567,
-    "latency_ms": 7227.16,
-    "estimated_cost_usd": 0.000333,
-    "safety_flag": false
-  },
-  {
-    "timestamp": "2026-03-29T19:13:27.429628",
-    "categoria": "SEGURIDAD",
-    "tokens_prompt": 1343,
-    "tokens_completion": 346,
-    "total_tokens": 1689,
-    "latency_ms": 10052.4,
-    "estimated_cost_usd": 0.000409,
-    "safety_flag": false
-  },
-  {
-    "timestamp": "2026-03-29T19:14:01.584402",
-    "categoria": "MATCHES",
-    "tokens_prompt": 1350,
-    "tokens_completion": 296,
-    "total_tokens": 1646,
-    "latency_ms": 7380.32,
-    "estimated_cost_usd": 0.00038,
-    "safety_flag": false
-  },
-  {
-    "timestamp": "2026-03-29T19:14:28.681308",
+    "timestamp": "2026-03-30T09:58:37.706820",
     "categoria": "PAGOS",
-    "tokens_prompt": 1351,
-    "tokens_completion": 274,
+    "tokens_prompt": 1359,
+    "tokens_completion": 210,
+    "total_tokens": 1569,
+    "latency_ms": 4517.01,
+    "estimated_cost_usd": 0.00033,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:42.517480",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1375,
+    "tokens_completion": 243,
+    "total_tokens": 1618,
+    "latency_ms": 4809.46,
+    "estimated_cost_usd": 0.000352,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:48.211447",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1368,
+    "tokens_completion": 285,
+    "total_tokens": 1653,
+    "latency_ms": 5692.78,
+    "estimated_cost_usd": 0.000376,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:54.024167",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1362,
+    "tokens_completion": 264,
+    "total_tokens": 1626,
+    "latency_ms": 5811.31,
+    "estimated_cost_usd": 0.000363,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:58:59.299255",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1361,
+    "tokens_completion": 264,
     "total_tokens": 1625,
-    "latency_ms": 7853.48,
-    "estimated_cost_usd": 0.000367,
+    "latency_ms": 5273.89,
+    "estimated_cost_usd": 0.000363,
     "safety_flag": false
   },
   {
-    "timestamp": "2026-03-29T19:14:59.928073",
+    "timestamp": "2026-03-30T09:59:04.877856",
+    "categoria": "PAGOS",
+    "tokens_prompt": 1367,
+    "tokens_completion": 301,
+    "total_tokens": 1668,
+    "latency_ms": 5576.38,
+    "estimated_cost_usd": 0.000386,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:59:15.246346",
     "categoria": "TECNICO",
-    "tokens_prompt": 1366,
-    "tokens_completion": 402,
-    "total_tokens": 1768,
-    "latency_ms": 10199.2,
-    "estimated_cost_usd": 0.000446,
+    "tokens_prompt": 1377,
+    "tokens_completion": 394,
+    "total_tokens": 1771,
+    "latency_ms": 10365.41,
+    "estimated_cost_usd": 0.000443,
     "safety_flag": false
   },
   {
-    "timestamp": "2026-03-29T19:15:34.890225",
+    "timestamp": "2026-03-30T09:59:23.612511",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1379,
+    "tokens_completion": 389,
+    "total_tokens": 1768,
+    "latency_ms": 8364.6,
+    "estimated_cost_usd": 0.00044,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:59:30.735228",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1372,
+    "tokens_completion": 377,
+    "total_tokens": 1749,
+    "latency_ms": 7121.48,
+    "estimated_cost_usd": 0.000432,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:59:37.563723",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1369,
+    "tokens_completion": 383,
+    "total_tokens": 1752,
+    "latency_ms": 6827.31,
+    "estimated_cost_usd": 0.000435,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:59:45.805079",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1377,
+    "tokens_completion": 409,
+    "total_tokens": 1786,
+    "latency_ms": 8239.71,
+    "estimated_cost_usd": 0.000452,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T09:59:54.034062",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1373,
+    "tokens_completion": 451,
+    "total_tokens": 1824,
+    "latency_ms": 8227.11,
+    "estimated_cost_usd": 0.000477,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T10:00:00.403700",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1373,
+    "tokens_completion": 352,
+    "total_tokens": 1725,
+    "latency_ms": 6368.47,
+    "estimated_cost_usd": 0.000417,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T10:00:14.651481",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1377,
+    "tokens_completion": 401,
+    "total_tokens": 1778,
+    "latency_ms": 14246.45,
+    "estimated_cost_usd": 0.000447,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T10:00:23.090687",
+    "categoria": "TECNICO",
+    "tokens_prompt": 1391,
+    "tokens_completion": 381,
+    "total_tokens": 1772,
+    "latency_ms": 8433.64,
+    "estimated_cost_usd": 0.000437,
+    "safety_flag": false
+  },
+  {
+    "timestamp": "2026-03-30T10:00:23.094534",
     "categoria": "BLOQUEADO",
     "tokens_prompt": 0,
     "tokens_completion": 0,
     "total_tokens": 0,
-    "latency_ms": 1.63,
+    "latency_ms": 1.73,
     "estimated_cost_usd": 0.0,
     "safety_flag": true
   },
   {
-    "timestamp": "2026-03-29T19:16:03.409286",
-    "categoria": "SEGURIDAD",
-    "tokens_prompt": 1386,
-    "tokens_completion": 337,
-    "total_tokens": 1723,
-    "latency_ms": 8041.92,
-    "estimated_cost_usd": 0.00041,
-    "safety_flag": false
+    "timestamp": "2026-03-30T10:00:23.097152",
+    "categoria": "BLOQUEADO",
+    "tokens_prompt": 0,
+    "tokens_completion": 0,
+    "total_tokens": 0,
+    "latency_ms": 0.27,
+    "estimated_cost_usd": 0.0,
+    "safety_flag": true
+  },
+  {
+    "timestamp": "2026-03-30T10:00:23.101460",
+    "categoria": "BLOQUEADO",
+    "tokens_prompt": 0,
+    "tokens_completion": 0,
+    "total_tokens": 0,
+    "latency_ms": 0.79,
+    "estimated_cost_usd": 0.0,
+    "safety_flag": true
+  },
+  {
+    "timestamp": "2026-03-30T10:00:23.103878",
+    "categoria": "BLOQUEADO",
+    "tokens_prompt": 0,
+    "tokens_completion": 0,
+    "total_tokens": 0,
+    "latency_ms": 0.37,
+    "estimated_cost_usd": 0.0,
+    "safety_flag": true
+  },
+  {
+    "timestamp": "2026-03-30T10:00:23.107365",
+    "categoria": "BLOQUEADO",
+    "tokens_prompt": 0,
+    "tokens_completion": 0,
+    "total_tokens": 0,
+    "latency_ms": 0.28,
+    "estimated_cost_usd": 0.0,
+    "safety_flag": true
   }
 ]
